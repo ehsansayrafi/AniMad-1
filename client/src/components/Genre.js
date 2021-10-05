@@ -20,7 +20,7 @@ const Genre = () => {
     return isLoading || data.length === 0? <Loading /> : (
         <div className='container'>
             <div className="mb-4" style={{"textAlign": "center"}}>
-                <h1 className="display-2">Genres</h1>
+                <h1 className="display-2">موضوعات</h1>
             </div>
             <div className='row align-items-center mb-3'>
             {

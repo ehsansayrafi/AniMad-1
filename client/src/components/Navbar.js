@@ -9,7 +9,7 @@ const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-transparent">
             <div className="container-fluid">
-                <Link style={{ textDecoration: 'none' }} className="navbar-brand" to="/">Animad</Link>
+                <Link style={{ textDecoration: 'none' }} className="navbar-brand" to="/">FranXX Anime</Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
@@ -28,8 +28,8 @@ const Navbar = () => {
                         history.push(`/search/${term}`)
                         setTerm('');
                     }}>
-                        <input className="form-control me-2" value={term} type="search" placeholder="Search" aria-label="Search" onChange={(e)=>setTerm(e.target.value)} />
-                        <button className="btn btn-success" type="submit">Search</button>
+                        <input className="form-control me-2" value={term} type="search" placeholder="اسم انیمه خود را وارد کنید ..." aria-label="Search" onChange={(e)=>setTerm(e.target.value)} />
+                        <button className="btn btn-success" type="submit">جستجو</button>
                     </form>
                 </div>
             </div>

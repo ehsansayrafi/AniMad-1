@@ -30,7 +30,7 @@ const Popular = () => {
     return isLoading ? <Loading /> : (
         <div className='container'>
             <div className="mb-4" style={{"textAlign": "center"}}>
-                <h1 className="display-2">Popular</h1>
+                <h1 className="display-2">معروف ترین ها</h1>
             </div>
             <div className="row mb-3">
                 {

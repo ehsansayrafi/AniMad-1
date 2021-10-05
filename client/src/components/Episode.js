@@ -45,13 +45,13 @@ const Episode = () => {
                 <div className="col-sm-2 col-md-2 col-lg-2">
                     {ep === "1" ? null : (
                         <Link className='link' style={{ textDecoration: 'none'}} to={`/watch/${id}/${Number(ep) - 1}`}>
-                        <button type="button" className="btn btn-success">Prev</button> 
+                        <button type="button" className="btn btn-success">فبلی</button> 
                         </Link>
                      )}
                 </div>
                     <div className="col-sm-2 offset-sm-8 col-md-2 offset-md-8 col-lg-2 offset-lg-8">
                         <Link className='link' to={`/watch/${id}/${Number(ep) + 1}`}>
-                            <button type="button" className="btn btn-success">Next</button> 
+                            <button type="button" className="btn btn-success">بعدی</button> 
                         </Link>
                     </div>
                 </div>
