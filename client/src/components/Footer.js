@@ -10,8 +10,8 @@ const Footer = () => {
                         <div class="col-md-12">
                             <div class="copyright-text">
                                 <p>
-                                    <a href="https://github.com/NamanBalaji/AniMad">Repo</a> Created by 
-                                    <a href="https://www.linkedin.com/in/naman-balaji-a35602178/" className='link'> Naman Balaji</a>
+                                   Created by 
+                                    <a href="https://discord.gg/9xBAyeV56W" className='link'> Loupak</a>
                                 </p>
                             </div>
                         </div>
