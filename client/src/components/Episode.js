@@ -45,7 +45,7 @@ const Episode = () => {
                 <div className="col-sm-2 col-md-2 col-lg-2">
                     {ep === "1" ? null : (
                         <Link className='link' style={{ textDecoration: 'none'}} to={`/watch/${id}/${Number(ep) - 1}`}>
-                        <button type="button" className="btn btn-success">فبلی</button> 
+                        <button type="button" className="btn btn-success">قبلی</button> 
                         </Link>
                      )}
                 </div>

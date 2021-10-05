@@ -30,7 +30,7 @@ const Home = () => {
     return isLoading ? <Loading /> : (
         <div className='container'>
             <div className="mb-4" style={{"textAlign": "center"}}>
-                <h1 className="display-2">Latest Episodes</h1>
+                <h1 className="display-2">انیمه های بتازگی منتشر شده</h1>
             </div>
             <div className="row">
                 {

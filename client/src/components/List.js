@@ -42,7 +42,7 @@ const List = () => {
         isLoading ? <Loading /> : (
            <div className='container'>
                 <div className="mb-4" style={{"textAlign": "center"}}>
-                    <h1 className="display-2">Anime List</h1>
+                    <h1 className="display-2">لیست انیمه ها بر اساس حروف</h1>
                 </div>
                 <div className="row align-items-center mb-5">
                 {
